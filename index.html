@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="res/css/style.css" rel="stylesheet">
+        <script src="lib/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+    </head>
+    <body ng-app="chatApp">
+        <div ng-controller="mainCtrl">
+                <h1 class="mainTitle">{{titre}}</h1>
+        </div>
+            <div ng-view>
+
+            </div>
+
+        <script src="lib/jquery.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/controllers/mainCtrl.js"></script>
+    </body>
+</html>
